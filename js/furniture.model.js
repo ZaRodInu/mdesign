@@ -467,6 +467,8 @@ const categories = [
   },
 
   // ready мягкая мебель
+
+  // Другие категории и их подкатегории
   {
     id: 2,
     name: "Корпусная мебель",
@@ -584,25 +586,108 @@ const categories = [
         items: [
           {
             id: 231,
-            name: "Стул 1",
-            description: "Описание стула 1",
-
-            img: " ",
+            name: "Miami",
+            title: "Дизайнерский стул для кухни", 
+            description: "",
+            img: " https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2022/02/211098_014_Miami_Chair_1_Velutto_05--w_500.webp",
             rate: 6,
           },
           {
-            id: 132,
-            name: "Стул 2",
-            description: "Описание стула 2",
-
-            img: " ",
+            id: 232,
+            name: "Aspen",
+            title: "Дизайнерский обеденный стул на деревянных ножках", 
+            description: "",
+            img: "https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2021/06/196730_007_Aspen_wood_1_0003--w_500.webp ",
+            rate: 5,
+          },
+          {
+            id: 233,
+            name: "Fargo",
+            title: "Дизайнерский обеденный стул", 
+            description: "",
+            img: "https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2021/05/196158_020_Farg_Chair_1_0004--w_500.webp",
+            rate: 4,
+          },
+          {
+            id: 234,
+            name: "Nampa",
+            title: "Обеденный стул", 
+            description: "",
+            img: "https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2022/02/211214_003_Nampa_1_Velutto_47--w_500.webp",
             rate: 3,
+          },
+          {
+            id: 235,
+            name: "Anderson",
+            title: "Обеденный стул", 
+            description: "",
+            img: "https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2022/02/211229_022_Anderson_1_Velutto_11--w_500.webp",
+            rate: 2,
+          },
+          {
+            id: 236,
+            name: "Jill",
+            title: "Дизайнерский барный стул на металлических опорах", 
+            description: "",
+            img: "https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2022/04/216766_035_Jill_PBar_1_0001--w_500.webp",
+            rate: 1,
+          },
+          {
+            id: 237,
+            name: "Jill",
+            title: "Дизайнерский полубарный стул", 
+            description: "",
+            img: " https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2021/12/208870_028_Jil_1_0001--w_500.webp",
+            rate: 5,
+          },
+          {
+            id: 238,
+            name: "Bonn",
+            title: " Дизайнерский полубарный стул", 
+            description: "",
+            img: " https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2021/01/184270_031_Bonn_PB_1_0001--w_500.webp",
+            rate: 4,
+          },
+          {
+            id: 239,
+            name: "Abbot",
+            title: " Полубарный/барный стул со спинкой кожа", 
+            description: "Полубарные и барные стулья Abbot в натуральной коже — воплощение современного аристократизма в интерьере. Сочетание компактности и комфорта Abbot достигается за счет стройных металлических опор, пухлой мягкой подушки сидения и эргономичной тонкой спинки. Тепло-серый оттенок ножек из металла выглядит гораздо более стильно и интересно, чем обычный черный цвет. В завершение образа, стулья Abbot могут быть выполнены в натуральной мягкой коже качества suprim в полуматовой фактуре. В коллекции SKDESIGN — трендовые оттенки, которые станут украшением Вашего интерьера. Натуральная кожа — не только про дизайн и статус интерьера, но и про долговечность, стойкость к износу и отличный внешний вид при минимальном уходе.",
+            img: " https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2022/10/229444_Abbot_P-Bar_01_leather_0011--w_500.webp",
+            rate: 3,
+          },
+          {
+            id: 2310,
+            name: "Wien",
+            title: " Дизайнерский стул", 
+            description: " ",
+            img: " https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2022/02/213413_015_Wien_1_Velutto_08--w_500.webp",
+            rate: 2,
+          },
+          {
+            id: 2311,
+            name: "Essen",
+            title: " Дизайнерское полукресло кожа/ткань", 
+            description: " Дизайнерское полукресло Essen с комбинированной обивкой из натуральной кожи и ткани. Каркас выполнен из березовой фанеры, ножки можно выбрать из металла или массива дерева. Сиденье, спинка и подлокотники мягкие, обтянуты комбинированной кожей или тканью.",
+            img: " https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2022/02/213413_015_Wien_1_Velutto_08--w_500.webp",
+            rate: 2,
+          },
+          {
+            id: 2312,
+            name: "Mendini",
+            title: " Банкетка с ящиком для хранения", 
+            description: " Дизайнерское полукресло Essen с комбинированной обивкой из натуральной кожи и ткани. Каркас выполнен из березовой фанеры, ножки можно выбрать из металла или массива дерева. Сиденье, спинка и подлокотники мягкие, обтянуты комбинированной кожей или тканью.",
+            img: " https://latqvbedpllwqek.skdesign.ru/wp-content/uploads/2023/03/256164_5_Mendini_MTR_1_Madrid_Fog--w_500.webp",
+            rate: 1,
           },
         ],
       },
-      // Другие подкатегории и их объекты
+      // ready Стулья 
+      // Другие подкатегории и xих объекты
     ],
   },
-  // Другие категории и их подкатегории
-  {},
-];
+]
+
+
+
+
